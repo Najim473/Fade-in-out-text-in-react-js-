@@ -6,7 +6,6 @@ import { onMessageListener } from "./firebaseInit";
 import Notifications from "./components/Notifications/Notifications";
 import ReactNotificationComponent from "./components/Notifications/ReactNotification";
 import Text from "../src/components/Text/Text"
-import Link from "../src/components/Link/Link"
 
 function App() {
   const [show, setShow] = useState(false);
@@ -38,7 +37,6 @@ function App() {
       <Notifications />
       <Fader text="Hello React"></Fader>
       <Text />
-      <Link>Made with ❤️ - Aseem</Link>
     </div>
   );
 }
